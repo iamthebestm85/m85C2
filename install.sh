@@ -14,7 +14,7 @@ else
 fi
 
 # Create branding directory (for custom files)
-mkdir -p branding
+
 
 # Initialize Go module (optional, since no deps)
 go mod init m85-c2
@@ -22,5 +22,5 @@ echo "Initialized Go module."
 
 echo "=== Setup Complete! ==="
 echo "Provide your config.json, login.txt, and branding/ files manually."
-echo "Run with: go run main.go"
+echo "Run with: go run c2.go"
 echo "Connect: telnet localhost 1111"
