@@ -6,14 +6,16 @@ A lightweight Telnet-based C2 panel for launching attacks via integrated APIs. B
 - Telnet login with per-user cooldowns.
 - Commands: `?` (help), `clear`, `methods`, `lookup <host>`, `ongoing`, `stats`, `attack`, `gif`, `quit`.
 - Attack syntax: `!<method> <host> <port> <time>` (e.g., `!httpflood example.com 80 60`).
-- Animated welcome/attack screens via TFX files.
+- Animated welcome/attack screens via TFX files. ( 
 - Logs to `logs.txt`; tracks attacks in memory.
 
 ## Quick Start
 1. Run `./install.sh` (installs Go if needed, creates samples).
 2. Edit `config.json` with your API details (e.g., stresser endpoints).
 3. Run `go run c2.go`.
-4. Connect: `telnet localhost 1111`.
+4. Connect: `telnet localhost 1111`.|
+5. To convert GIF to TFX use gif.py  command -> python gif.py <input_gif_path> <output_tfx_path>
+6. pip install numpy && pip install Pillow 
 
 ## Configuration
 All customizations are file-based or in `config.json`. No rebuild required.
