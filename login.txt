@@ -1,0 +1,2 @@
+root:root:30
+username:password:cooldown
