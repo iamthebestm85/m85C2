@@ -101,7 +101,7 @@ app.get("/api/attack", (req, res) => {
   };
 
   if (method.toLowerCase() === "httpbypass") {
-    executeCommand(`node bypass.js GET ${host} ${time} 8 5 proxy5.txt --debug --limit --ipv4 --connect --delay 10`, 
+    executeCommand(`node bypass.js GET ${host} ${time} 8 5 proxy5.txt --debug `, 
     () => {}
     );
   }
