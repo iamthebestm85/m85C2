@@ -43,3 +43,8 @@ Example API addition:
   "methods": ["httpbypass"],
   "method_param": "type"
 }
+```
+
+
+Educational/testing only. Use responsibly on authorized targets.
+Made by m85 | Discord: https://discord.gg/hNmBhr49h9
