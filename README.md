@@ -10,7 +10,7 @@ A lightweight Telnet-based C2 panel for launching attacks via integrated APIs. B
 - Logs to `logs.txt`; tracks attacks in memory.
 
 ## Quick Start
-1. Run `./install.sh` (installs Go if needed, creates samples).
+1. Run `bash install.sh` (installs Go if needed, creates samples).
 2. Edit `config.json` with your API details (e.g., stresser endpoints).
 3. Run `go run c2.go`.
 4. Connect: `telnet localhost 1111`.|
